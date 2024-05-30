@@ -1,0 +1,86 @@
+import 'package:stylish_ui/model/wishlist_item_model.dart';
+
+class WishListModel {
+  final List<WishListModelItems> wishListModelItems = [
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/1.png',
+      title: 'Women Printed Kurta',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 1500,
+      rating: 4.5,
+      reviewCount: 56890,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/2.png',
+      title: 'HRX by Hrithik Roshan',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 2499,
+      rating: 4.0,
+      reviewCount: 344567,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/3.png',
+      title: 'Women Printed Kurta',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 1500,
+      rating: 4.5,
+      reviewCount: 56890,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/4.png',
+      title: 'HRX by Hrithik Roshan',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 2499,
+      rating: 4.0,
+      reviewCount: 344567,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/5.png',
+      title: 'Women Printed Kurta',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 1500,
+      rating: 4.5,
+      reviewCount: 56890,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/6.png',
+      title: 'HRX by Hrithik Roshan',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 2499,
+      rating: 4.0,
+      reviewCount: 344567,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/7.png',
+      title: 'Women Printed Kurta',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 1500,
+      rating: 4.5,
+      reviewCount: 56890,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/8.png',
+      title: 'HRX by Hrithik Roshan',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 2499,
+      rating: 4.0,
+      reviewCount: 344567,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/9.png',
+      title: 'Women Printed Kurta',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 1500,
+      rating: 4.5,
+      reviewCount: 56890,
+    ),
+    WishListModelItems(
+      imagePath: 'assets/images/wishlist_screen_images/10.png',
+      title: 'HRX by Hrithik Roshan',
+      description: 'Neque porro quisquam est qui dolorem ipsum quia',
+      price: 2499,
+      rating: 4.0,
+      reviewCount: 344567,
+    ),
+  ];
+}
