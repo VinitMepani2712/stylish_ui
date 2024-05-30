@@ -2,18 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import '../../model/check_out_model.dart';
 
-void main() {
-  runApp(MyApp());
-}
 
-class MyApp extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(
-      home: CheckoutScreen(),
-    );
-  }
-}
 
 class CheckoutScreen extends StatelessWidget {
   @override
@@ -23,7 +12,6 @@ class CheckoutScreen extends StatelessWidget {
         leading: IconButton(
           icon: Icon(Icons.arrow_back),
           onPressed: () {
-            // Handle back button press
           },
         ),
         title: Text('Checkout'),

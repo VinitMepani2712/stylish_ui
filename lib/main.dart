@@ -7,8 +7,10 @@ import 'package:stylish_ui/screen/checkout_screen.dart/checkout_screen.dart';
 import 'package:stylish_ui/screen/profile_screen/profile_screen.dart';
 import 'package:stylish_ui/screen/splash_screen/splash_screen.dart';
 import 'package:stylish_ui/screen/welcome_screen/welcome_screen.dart';
+import 'screen/checkout_screen.dart/payment_screen.dart';
 import 'screen/main_screen/cart_screen.dart';
 import 'screen/main_screen/home_screen.dart';
+import 'screen/shopping_bag_screen/shopping_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -33,7 +35,7 @@ class MyApp extends StatelessWidget {
           ),
           useMaterial3: true,
         ),
-        home: CheckoutScreen(),
+        home: PaymentScreen(),
       ),
     );
   }
